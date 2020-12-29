@@ -1,0 +1,13 @@
+
+#!/bin/bash
+
+#Dobavlyaem URL argument iz cmd
+
+#Nnazivaem fileNaming file to download data from url into this file
+
+
+#Downloading file from url
+curl -o "$2" "$1" 
+
+#Printing 11 last string's
+tail -n 11 "$2"
